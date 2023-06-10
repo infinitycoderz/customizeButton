@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Customize Button</string>
+    <string name="rectangular_Button">Rectangular Button</string>
+    <string name="oval_button">Oval Button</string>
+    <string name="gradient_button">Gradient Button</string>
+    <string name="stroke_button">Stroke Button</string>
+    <string name="layer_list_button">Layer List Button</string>
+    <string name="icon_button">Icon Circle Button</string>
+    <string name="number_button">Number Circle Button</string>
+</resources>

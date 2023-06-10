@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/rectangularButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/rectangular_Button"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_rectangle"/>
+
+    <Button
+        android:id="@+id/ovalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/oval_button"
+        android:textColor="@color/white"
+        android:background="@drawable/oval"/>
+
+    <Button
+        android:id="@+id/gradientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/gradient_button"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"/>
+
+    <Button
+        android:id="@+id/strokeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/stroke_button"
+        android:textColor="@color/white"
+        android:background="@drawable/stroke"/>
+
+    <Button
+        android:id="@+id/layerlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/layer_list_button"
+        android:textColor="@color/black"
+        android:background="@drawable/layer_list"/>
+
+    <Button
+        android:id="@+id/iconCircularButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular"
+        android:drawableTop="@drawable/baseline_add_reaction_24"
+        android:padding="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/numberCircleButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular_layer"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+</LinearLayout>
